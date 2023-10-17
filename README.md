@@ -33,7 +33,7 @@ go get -u github.com/dev-bittu/goalert
 Import the goalert package into your Go file:
 ```go
 import (
-  alert "github.com/dev-bittu/goalert"
+  alert "github.com/dev-bittu/goalert/v1"
 )
 ```
 
@@ -44,7 +44,7 @@ Here's an example:
 package main
 
 import (
-  alert "github.com/dev-bittu/goalert"
+  alert "github.com/dev-bittu/goalert/v1"
 )
 
 func main() {
@@ -79,7 +79,7 @@ func Impo(text string) {}
 package main
 
 import(
-  alert "github.com/dev-bittu/goalert"
+  alert "github.com/dev-bittu/goalert/v1"
 )
 
 func main() {
@@ -100,7 +100,7 @@ package main
 
 import (
   "fmt"
-  alert "github.com/dev-bittu/goalert"
+  alert "github.com/dev-bittu/goalert/v1"
 )
 
 func main() {
@@ -137,7 +137,7 @@ package main
 
 import(
   "fmt"
-  alert "github.com/dev-bittu/goalert"
+  alert "github.com/dev-bittu/goalert/v1"
 )
 
 func main() {
